@@ -21,6 +21,7 @@ const Card = ({ url, object, select }) => {
         ref={img}
         onError={() => (img.current.src = starWar)}
       />
+      
       <div
         className="card-body d-flex flex-column justify-content-between"
         style={{ height: "100px" }}
